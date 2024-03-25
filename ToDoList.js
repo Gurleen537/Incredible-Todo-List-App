@@ -1,7 +1,4 @@
-
-
-export default function ToDoList() {
-  return ( mport React from "react";
+import React from "react";
 import { ScrollView, View, Text, Pressable, StyleSheet } from "react-native";
 
 export default function ToDoList({ tasks }) {
@@ -33,7 +30,3 @@ const styles = StyleSheet.create({
     fontSize: 16,
   },
 });
-
-
-                    
-            
